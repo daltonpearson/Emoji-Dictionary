@@ -38,5 +38,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3Hc-3V-8mc">
+            <objects>
+                <viewController id="iYj-Jq-hMg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zff-yx-aCL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdp-e1-H2L">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpS-IE-hOw">
+                                <rect key="frame" x="103" y="349" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QpS-IE-hOw" firstAttribute="centerX" secondItem="Zff-yx-aCL" secondAttribute="centerX" id="Asi-Tk-eUT"/>
+                            <constraint firstItem="bdp-e1-H2L" firstAttribute="top" secondItem="Gpx-xg-swt" secondAttribute="top" constant="40" id="o3V-HA-sxS"/>
+                            <constraint firstItem="bdp-e1-H2L" firstAttribute="centerX" secondItem="Zff-yx-aCL" secondAttribute="centerX" id="pa7-WK-Z1a"/>
+                            <constraint firstItem="QpS-IE-hOw" firstAttribute="top" secondItem="bdp-e1-H2L" secondAttribute="bottom" constant="50" id="rst-i3-Z0c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gpx-xg-swt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQo-JU-KMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.79999999999995" y="29.23538230884558"/>
+        </scene>
     </scenes>
 </document>
